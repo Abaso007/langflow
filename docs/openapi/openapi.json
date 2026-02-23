@@ -5514,7 +5514,7 @@
         ],
         "summary": "Handle Streamable Http",
         "description": "Streamable HTTP endpoint for MCP clients that support the new transport.",
-        "operationId": "handle_streamable_http_api_v1_mcp_streamable__post",
+        "operationId": "handle_streamable_http_api_v1_mcp_streamable__delete",
         "responses": {
           "200": {
             "description": "Successful Response"
@@ -5538,7 +5538,7 @@
         ],
         "summary": "Handle Streamable Http",
         "description": "Streamable HTTP endpoint for MCP clients that support the new transport.",
-        "operationId": "handle_streamable_http_api_v1_mcp_streamable__post",
+        "operationId": "handle_streamable_http_api_v1_mcp_streamable__delete",
         "responses": {
           "200": {
             "description": "Successful Response"
@@ -5562,7 +5562,7 @@
         ],
         "summary": "Handle Streamable Http",
         "description": "Streamable HTTP endpoint for MCP clients that support the new transport.",
-        "operationId": "handle_streamable_http_api_v1_mcp_streamable__post",
+        "operationId": "handle_streamable_http_api_v1_mcp_streamable__delete",
         "responses": {
           "200": {
             "description": "Successful Response"
@@ -5588,7 +5588,7 @@
         ],
         "summary": "Handle Streamable Http",
         "description": "Streamable HTTP endpoint for MCP clients that support the new transport.",
-        "operationId": "handle_streamable_http_api_v1_mcp_streamable_post",
+        "operationId": "handle_streamable_http_api_v1_mcp_streamable_delete",
         "responses": {
           "200": {
             "description": "Successful Response"
@@ -5612,7 +5612,7 @@
         ],
         "summary": "Handle Streamable Http",
         "description": "Streamable HTTP endpoint for MCP clients that support the new transport.",
-        "operationId": "handle_streamable_http_api_v1_mcp_streamable_post",
+        "operationId": "handle_streamable_http_api_v1_mcp_streamable_delete",
         "responses": {
           "200": {
             "description": "Successful Response"
@@ -5636,7 +5636,7 @@
         ],
         "summary": "Handle Streamable Http",
         "description": "Streamable HTTP endpoint for MCP clients that support the new transport.",
-        "operationId": "handle_streamable_http_api_v1_mcp_streamable_post",
+        "operationId": "handle_streamable_http_api_v1_mcp_streamable_delete",
         "responses": {
           "200": {
             "description": "Successful Response"
@@ -5937,13 +5937,13 @@
       }
     },
     "/api/v1/mcp/project/{project_id}/streamable/": {
-      "post": {
+      "delete": {
         "tags": [
           "mcp_projects"
         ],
         "summary": "Handle Project Streamable Http",
         "description": "Handle Streamable HTTP connections for a specific project.",
-        "operationId": "handle_project_streamable_http_api_v1_mcp_project__project_id__streamable__post",
+        "operationId": "handle_project_streamable_http_api_v1_mcp_project__project_id__streamable__delete",
         "parameters": [
           {
             "name": "project_id",
@@ -5978,7 +5978,7 @@
         ],
         "summary": "Handle Project Streamable Http",
         "description": "Handle Streamable HTTP connections for a specific project.",
-        "operationId": "handle_project_streamable_http_api_v1_mcp_project__project_id__streamable__post",
+        "operationId": "handle_project_streamable_http_api_v1_mcp_project__project_id__streamable__delete",
         "parameters": [
           {
             "name": "project_id",
@@ -6007,13 +6007,13 @@
           }
         }
       },
-      "delete": {
+      "post": {
         "tags": [
           "mcp_projects"
         ],
         "summary": "Handle Project Streamable Http",
         "description": "Handle Streamable HTTP connections for a specific project.",
-        "operationId": "handle_project_streamable_http_api_v1_mcp_project__project_id__streamable__post",
+        "operationId": "handle_project_streamable_http_api_v1_mcp_project__project_id__streamable__delete",
         "parameters": [
           {
             "name": "project_id",
@@ -6044,13 +6044,13 @@
       }
     },
     "/api/v1/mcp/project/{project_id}/streamable": {
-      "post": {
+      "delete": {
         "tags": [
           "mcp_projects"
         ],
         "summary": "Handle Project Streamable Http",
         "description": "Handle Streamable HTTP connections for a specific project.",
-        "operationId": "handle_project_streamable_http_api_v1_mcp_project__project_id__streamable_post",
+        "operationId": "handle_project_streamable_http_api_v1_mcp_project__project_id__streamable_delete",
         "parameters": [
           {
             "name": "project_id",
@@ -6085,7 +6085,7 @@
         ],
         "summary": "Handle Project Streamable Http",
         "description": "Handle Streamable HTTP connections for a specific project.",
-        "operationId": "handle_project_streamable_http_api_v1_mcp_project__project_id__streamable_post",
+        "operationId": "handle_project_streamable_http_api_v1_mcp_project__project_id__streamable_delete",
         "parameters": [
           {
             "name": "project_id",
@@ -6114,13 +6114,13 @@
           }
         }
       },
-      "delete": {
+      "post": {
         "tags": [
           "mcp_projects"
         ],
         "summary": "Handle Project Streamable Http",
         "description": "Handle Streamable HTTP connections for a specific project.",
-        "operationId": "handle_project_streamable_http_api_v1_mcp_project__project_id__streamable_post",
+        "operationId": "handle_project_streamable_http_api_v1_mcp_project__project_id__streamable_delete",
         "parameters": [
           {
             "name": "project_id",
